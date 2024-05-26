@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 WORKDIR /ardupilot
 
 RUN useradd -U -d /ardupilot ardupilot && \
